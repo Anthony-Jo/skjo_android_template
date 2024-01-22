@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">skjo_android_template</string>
+
+    <string name="image_picker_title">Pick Image</string>
 </resources>
