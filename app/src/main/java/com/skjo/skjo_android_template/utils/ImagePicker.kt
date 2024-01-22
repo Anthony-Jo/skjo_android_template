@@ -21,6 +21,9 @@ class ImagePicker(private val activity: ComponentActivity, private val context: 
     private var callback: ((ArrayList<Uri>) -> Unit)? = null
     private var file: File? = null
 
+    /**
+     * set callback on Activity
+     */
     fun setOnCallback(callback: (ArrayList<Uri>) -> Unit) {
         this.callback = callback
     }
