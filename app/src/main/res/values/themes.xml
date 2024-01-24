@@ -2,4 +2,9 @@
 <resources>
 
     <style name="Theme.Skjo_android_template" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.Skjo_android_template.button" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
 </resources>
