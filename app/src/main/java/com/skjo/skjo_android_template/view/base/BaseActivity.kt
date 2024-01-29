@@ -31,4 +31,6 @@ abstract class BaseActivity<VB : ViewBinding>(private val inflate: InflateActivi
             onBackPressedCallback()
         }
     }
+
+    abstract val viewTag: String
 }
